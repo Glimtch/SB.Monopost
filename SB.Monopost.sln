@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics", "Dynamics", "{B8447BD6-B741-4D89-9A36-D070D3099D68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{C9DE933F-657E-4B72-9220-6EDFDC8C5C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.DriverOrder", "Dynamics\Plugins\SB.DriverOrder\SB.DriverOrder.csproj", "{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9DE933F-657E-4B72-9220-6EDFDC8C5C54} = {B8447BD6-B741-4D89-9A36-D070D3099D68}
+		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3} = {C9DE933F-657E-4B72-9220-6EDFDC8C5C54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67279663-A944-4C2B-8498-636A9E148593}
