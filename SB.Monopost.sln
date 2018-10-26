@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{C9DE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.DriverOrder", "Dynamics\Plugins\SB.DriverOrder\SB.DriverOrder.csproj", "{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.Monopost.Workflows", "Dynamics\SB.Monopost.Workflows\SB.Monopost.Workflows.csproj", "{B279A61A-89D0-4D98-AD27-D29DB92EF0B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B279A61A-89D0-4D98-AD27-D29DB92EF0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B279A61A-89D0-4D98-AD27-D29DB92EF0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B279A61A-89D0-4D98-AD27-D29DB92EF0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B279A61A-89D0-4D98-AD27-D29DB92EF0B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C9DE933F-657E-4B72-9220-6EDFDC8C5C54} = {B8447BD6-B741-4D89-9A36-D070D3099D68}
 		{A437B4F2-AE43-47C6-9DA0-6F7A47B868F3} = {C9DE933F-657E-4B72-9220-6EDFDC8C5C54}
+		{B279A61A-89D0-4D98-AD27-D29DB92EF0B6} = {B8447BD6-B741-4D89-9A36-D070D3099D68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67279663-A944-4C2B-8498-636A9E148593}
